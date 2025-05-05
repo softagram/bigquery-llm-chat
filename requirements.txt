@@ -1,0 +1,12 @@
+# pyodbc # Not needed for BigQuery with sqlalchemy-bigquery
+fastapi
+uvicorn[standard]
+langchain
+langchain-google-vertexai
+google-cloud-bigquery
+langchain_experimental
+python-dotenv
+sqlalchemy-bigquery
+# pybigquery # Commenting out as sqlalchemy-bigquery is preferred
+streamlit
+requests 
